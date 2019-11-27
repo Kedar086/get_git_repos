@@ -1,0 +1,20 @@
+<div ng-app="github">
+  <div ng-controller="githubRepos">
+
+    <form ng-submit="getGithubRepos()">
+      Github User name: <input type="text" ng-model="userName" />
+      <button type='submit'> Click Me</button>
+    </form>
+
+    <div ng-show="error" class="error">
+      {{ error }}
+    </div>
+    <div ng-repeat="x in results">
+      <a ng-href="{{x.html_url}}" target="_blank">{{x.name}}</a>
+    </div>
+  </div>
+  <div>
+
+  </div>
+
+</div
