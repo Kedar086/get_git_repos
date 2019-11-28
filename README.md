@@ -16,7 +16,7 @@ Run following commands
 
 <pre>
 	<code>
-	git clone https://github.com/Kedar086/Payslip-Generator
+	git clone https://github.com/Kedar086/get_git_repos.git
 	npm install
 	bower install
     Start the Project 
