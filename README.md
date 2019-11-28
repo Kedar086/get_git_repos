@@ -9,6 +9,7 @@ Get Git Repos, it allows you to get the public git repositories of any user.
 Public API
 "https://api.github.com/users/kedar086/repos"
 Method : GET
+input field : required
 
 ### How to run
 
@@ -18,7 +19,7 @@ Run following commands
 	<code>
 	git clone https://github.com/Kedar086/get_git_repos.git
 	npm install
-    Start the Project 
+    To start the Project run below command
     node server/app.js by  - default run on development
 	</code>
 </pre>

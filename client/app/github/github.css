@@ -6,9 +6,9 @@
     border-radius: 2px;
 }
 .grid-item {
-    background-color: #e9f4f3;
+    background-color: #fff;
     border: 1px solid #a69696;
     padding: 0px;
-    font-size: 20px;
+    font-size: 19px;
     text-align: center;
 }
