@@ -1,0 +1,40 @@
+{
+  "name": "get_git_repos",
+  "version": "1.0.0",
+  "description": "======================================",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "prod": "NODE_ENV=production node server/app.js",
+    "dev": "NODE_ENV=development node server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kedar086/get_git_repos.git"
+  },
+  "keywords": [
+    "git repos"
+  ],
+  "author": "kedar",
+  "license": "ISC",
+  "homepage": "https://github.com/Kedar086/get_git_repos.git#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.3",
+    "joi": "^13.4.0",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "morgan": "^1.9.0",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "mocha": "^5.2.0",
+    "supertest": "^3.1.0",
+    "should": "^13.2.1"
+  }
+}

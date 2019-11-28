@@ -18,9 +18,8 @@ Run following commands
 	<code>
 	git clone https://github.com/Kedar086/get_git_repos.git
 	npm install
-	bower install
     Start the Project 
-    node server/app.js by default run on development
+    node server/app.js by  - default run on development
 	</code>
 </pre>
 
@@ -46,9 +45,6 @@ NODE_ENV=production node server/app.js
 // in development
 NODE_ENV=development PORT=9000 node server/app.js
 
-// in testing
-NODE_ENV=testing PORT=9000 node server/app.js
-
 
 Project Structure
 Overview
@@ -72,4 +68,5 @@ An example client component in client/app
 github
 ├── github.js                 - Routes
 ├── github.controller.js      - Controller for our github route
-├── github.html               - View
+├── github.html               - HTML View
+├── github.css               -  Css

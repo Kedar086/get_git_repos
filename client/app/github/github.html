@@ -1,0 +1,20 @@
+<div ng-controller="githubRepos">
+  <h3 style="text-align: center; color: green">Get Github Repos</h3>
+  <div class="container">
+    <div class="form-group">
+      <form style="text-align: center;" ng-submit="getGithubRepos()">
+        <label for="">Github User name:</label>
+        <input type="text" name="{{userName}}" ng-model="userName" required>
+        <button type="submit" class="btn btn-primary">submit</button>
+      </form>
+    </div>
+  </div>
+  <hr>
+  <div class="grid" ng-show="load">
+    <div class="grid-item" ng-repeat="item in results">
+      <a ng-href="{{item.html_url}}" target="_blank">
+        {{item.name}}
+      </a>
+    </div>
+  </div>
+</div>
